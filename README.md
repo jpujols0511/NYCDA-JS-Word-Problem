@@ -62,6 +62,7 @@ let stringWord = stringLatin.toLowerCase().split(' ');
 let pigLatinString = [];
 
 let i = 0
+
 while(i < stringWord.length){
   letters = stringWord[i].split('');
   letters.push(letters.splice(0,1)+' ay');
