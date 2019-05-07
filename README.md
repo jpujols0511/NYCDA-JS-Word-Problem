@@ -35,7 +35,7 @@ fizzBuzz()
 
 # Problem #2 Fizzbuzz using while loop
 
-function fizzBuzz2(){
+function fizzBuzz2() {
 
   let i = 0
 
@@ -56,7 +56,7 @@ fizzBuzz2()
 
 # Problem #3 PigLatin Attempt
 
-function pigLatinConverter(stringLatin){
+function pigLatinConverter(stringLatin) {
 
 let stringWord = stringLatin.toLowerCase().split(' ');
 let pigLatinString = [];
@@ -78,9 +78,7 @@ while(i < stringWord.length){
 
   pigLatinString = pigLatinString.join(' ');
   return pigLatinString;
-
-
+  
 }
-
 console.log(pigLatinConverter('IamtheKing'))
 
